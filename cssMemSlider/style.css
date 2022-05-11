@@ -15,3 +15,12 @@
     border-radius: 20px;
     position: relative;
 }
+
+/*overflow-x - все, что не помещается в окне просмотра слайдера, будет доступно только путем прокрутки */
+.slides{
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
