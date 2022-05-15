@@ -161,16 +161,16 @@ h1 span {
   background-size: cover;
 }
 .slider__slide_1 {
-  background-image: url(./assets/happy\ me.jpg);
+  background-image: url(./assets/happy.jpg);
 }
 .slider__slide_2 {
-  background-image: url(./assets/hungry\ me.jpg);
+  background-image: url(./assets/hungry.jpg);
 }
 .slider__slide_3 {
-  background-image: url(./assets/sleppy\ me.jpg);
+  background-image: url(./assets/sleppy.jpg);
 }
 .slider__slide_4 {
-  background-image: url(./assets/waiting\ me.jpg);
+  background-image: url(./assets/waiting.jpg);
 }
 
 .radio-buttons-wrapper {
