@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Mem Slider</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div class="slider-wrapper">
-        <div class="slider">
-          <div class="slides">
-            <div id="slides__1" class="slide">
-                <img src="./assets/happy me.jpg" alt="">
-              <!-- <span class="slide__text">1</span> -->
-              <a class="slide__prev" href="#slides__4" title="Next"></a>
-              <a class="slide__next" href="#slides__2" title="Next"></a>
-            </div>
-            <div id="slides__2" class="slide">
-                <img src="./assets/hungry me.jpg" alt="">
-              <!-- <span class="slide__text">2</span> -->
-              <a class="slide__prev" href="#slides__1" title="Prev"></a>
-              <a class="slide__next" href="#slides__3" title="Next"></a>
-            </div>
-            <div id="slides__3" class="slide">
-                <img src="./assets/sleppy me.jpg" alt="">
-              <!-- <span class="slide__text">3</span> -->
-              <a class="slide__prev" href="#slides__2" title="Prev"></a>
-              <a class="slide__next" href="#slides__4" title="Next"></a>
-            </div>
-            <div id="slides__4" class="slide">
-                <img src="./assets/waiting me.jpg" alt="">
-              <!-- <span class="slide__text">4</span> -->
-              <a class="slide__prev" href="#slides__3" title="Prev"></a>
-              <a class="slide__next" href="#slides__1" title="Prev"></a>
-            </div>
-          </div>
-          <div class="slider__nav">
-              <a class="slider__navlink" href="#slides__1"></a>
-              <a class="slider__navlink" href="#slides__2"></a>
-              <a class="slider__navlink" href="#slides__3"></a>
-              <a class="slider__navlink" href="#slides__4"></a>
-          </div>
+      <input
+        class="radio"
+        type="radio"
+        id="single-button_1"
+        name="radio"
+        checked
+      />
+      <input class="radio" type="radio" id="single-button_2" name="radio" />
+      <input class="radio" type="radio" id="single-button_3" name="radio" />
+      <input class="radio" type="radio" id="single-button_4" name="radio" />
+      <div class="slider">
+        <div class="slides">
+          <div id="slides__1" class="slide slider__slide_1"></div>
+          <div id="slides__2" class="slide slider__slide_2"></div>
+          <div id="slides__3" class="slide slider__slide_3"></div>
+          <div id="slides__4" class="slide slider__slide_4"></div>
         </div>
       </div>
-</body>
+
+      <div class="radio-buttons-wrapper">
+        <div class="slides-description">
+          <div class="single-description description_1">Happy me!</div>
+          <div class="single-description description_2">Hungry me!</div>
+          <div class="single-description description_3">Sleepy me!</div>
+          <div class="single-description description_4">Waiting me!</div>
+        </div>
+        <div class="buttons">
+          <label class="single-button" for="single-button_1">
+            <span class="slides__radio-button slides__radio_1"></span>
+          </label>
+
+          <label class="single-button" for="single-button_2">
+            <span class="slides__radio-button slides__radio_2"></span>
+          </label>
+
+          <label class="single-button" for="single-button_3">
+            <span class="slides__radio-button slides__radio_3"></span>
+          </label>
+
+          <label class="single-button" for="single-button_4">
+            <span class="slides__radio-button slides__radio_4"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
