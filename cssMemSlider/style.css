@@ -7,18 +7,18 @@ h1 {
   font-family: "Paytone One";
   color: #202020;
   text-transform: uppercase;
-  letter-spacing: -2px;
+  letter-spacing: -0.125rem;
   text-align: center;
 }
 
 h1 span {
   display: block;
-  margin: 11px 0 17px 0;
-  font-size: 40px;
-  line-height: 40px;
+  margin: 0.688rem 1.063rem 0;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   color: #f1ebe5;
-  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
-  letter-spacing: -4px;
+  text-shadow: 0 0.835rem 0.556 #c4b59d, 0 -20.125rem 0.063rem #fff;
+  letter-spacing: -0.25rem;
 }
 /*slider*/
 .slider-wrapper {
@@ -178,7 +178,6 @@ h1 span {
   text-align: center;
   border-radius: 1.25rem;
   overflow: hidden;
-  position: relative;
 }
 
 .slides {
@@ -252,14 +251,14 @@ h1 span {
 }
 .single-button:hover .slides__radio-button {
   background-color: white;
-  border: 1px solid white;
+  border: 0.063rem solid white;
 }
 
 .slides__radio-button {
   display: block;
   width: 1.5rem;
   height: 1.5rem;
-  border: 1px solid rgb(113, 170, 254);
+  border: 0.063rem solid rgb(113, 170, 254);
   border-radius: 50%;
   background-color: rgb(113, 170, 254);
   transition: 0.5s;
