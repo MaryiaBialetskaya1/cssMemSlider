@@ -43,6 +43,29 @@ h1 span {
     background-position: 0% 50%;
   }
 }
+#single-button_1:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_1,
+#single-button_2:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_2,
+#single-button_3:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_3,
+#single-button_4:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_4 {
+  background-color: whitesmoke;
+  border: solid 0.25rem black;
+}
 #single-button_1:checked
   ~ .radio-buttons-wrapper
   .buttons
