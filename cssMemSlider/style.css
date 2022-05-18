@@ -89,6 +89,31 @@ h1 span {
   background-color: black;
 }
 
+#single-button_1:checked:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_1,
+#single-button_2:checked:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_2,
+#single-button_3:checked:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_3,
+#single-button_4:checked:active
+  ~ .radio-buttons-wrapper
+  .buttons
+  .single-button
+  .slides__radio_4 {
+  background-color: rgb(113, 170, 254);
+  transition: 0.5s;
+  border: solid 0.25rem white;
+}
+
 #single-button_2:checked ~ .slider .slides {
   margin-left: -62.5rem;
 }
