@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Mem Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="slider-wrapper">
+        <h1><span>CSS Mem Slider</span></h1>
+        <input
+          class="radio"
+          type="radio"
+          id="single-button_1"
+          name="radio"
+          checked
+        />
+        <input class="radio" type="radio" id="single-button_2" name="radio" />
+        <input class="radio" type="radio" id="single-button_3" name="radio" />
+        <input class="radio" type="radio" id="single-button_4" name="radio" />
+        <div class="slider">
+          <div class="slides">
+            <div id="slides__1" class="slide slider__slide_1"></div>
+            <div id="slides__2" class="slide slider__slide_2"></div>
+            <div id="slides__3" class="slide slider__slide_3"></div>
+            <div id="slides__4" class="slide slider__slide_4"></div>
+          </div>
+        </div>
+
+        <div class="radio-buttons-wrapper">
+          <div class="slides-description">
+            <div class="single-description description_1">Happy me!</div>
+            <div class="single-description description_2">Hungry me!</div>
+            <div class="single-description description_3">Sleepy me!</div>
+            <div class="single-description description_4">Waiting me!</div>
+          </div>
+          <div class="buttons">
+            <label class="single-button" for="single-button_1">
+              <span class="slides__radio-button slides__radio_1"></span>
+            </label>
+
+            <label class="single-button" for="single-button_2">
+              <span class="slides__radio-button slides__radio_2"></span>
+            </label>
+
+            <label class="single-button" for="single-button_3">
+              <span class="slides__radio-button slides__radio_3"></span>
+            </label>
+
+            <label class="single-button" for="single-button_4">
+              <span class="slides__radio-button slides__radio_4"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <h3>Rolling Scopes School</h3>
+        <p>
+          RS School is free-of-charge and community-based education program
+          conducted by The Rolling Scopes developer community since 2013.
+        </p>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2022 <a href="#">maryiabialetskaya</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
